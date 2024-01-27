@@ -1,0 +1,149 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* .face
+{
+    height: 150px;
+    width: 150px;
+    background-color: yellow;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 30px 0 0 50px;
+    position: relative;
+    animation: rotate 4s linear infinite;
+} */
+/* .eye1
+{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    left: 30px;
+  
+}
+.eye2
+{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    left: 80px;
+} */
+/* .ear1
+{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    left: -36px;
+}
+.ear2
+{
+    height: 40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 29px;
+    left: 143px;
+} */
+/* .mouth
+{
+    height: 40px;
+    width: 80px;
+    background-color: pink;
+    border: 2px solid white;
+    border-radius: 30px;
+    position: absolute;
+    top: 82px;
+    left: 32px;
+}
+@keyframes rotate
+{
+    0%
+    {
+        top: 0;
+        left: 0;
+    }
+    50%
+    {
+        top: 0;
+        left: 1200px;
+        transform: rotate(180deg);
+    }
+    100%
+    {
+        top: 0;
+        left: 0;
+    }
+} */
+
+.fan
+{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid dimgray;
+    margin: auto;
+    margin-top: 100px;
+    position: relative;
+    animation: rotate 1s linear infinite;
+}
+.wing1
+{
+    height: 40px;
+    width: 200px;
+    background-color: darkblue;
+    position: absolute;
+    top: 75px;
+    left: 196px;
+}
+.wing2
+{
+    height: 40px;
+    width: 200px;
+    background-color: darkblue;
+    position: absolute;
+    top: 75px;
+    left: -198px;
+}
+.wing3
+{
+    height: 200px;
+    width: 40px;
+    background-color: darkblue;
+    position: absolute;
+    top: -198px;
+    left: 80px;
+}
+.wing4
+{
+    height: 200px;
+    width: 40px;
+    background-color: darkblue;
+    position: absolute;
+    top: 196px;
+    left: 80px;
+}
+@keyframes rotate
+{
+    from
+    {
+        top: 0;
+        left: 0;
+    }
+    to
+    {
+        transform: rotate(360deg);
+    }
+}

@@ -1,0 +1,87 @@
+.parent
+{
+    position: relative;
+}
+
+
+.box
+{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    /* animation: change 1s linear infinite; */
+    position: absolute;
+    animation: move 3s ease-in infinite;
+}
+@keyframes move
+{
+    from
+    {
+        left: 0;
+        top: 0;
+    }
+    to
+    {
+        left: 0px;
+        top: 0;
+        background-color: purple;
+        transform: rotate(180deg);
+    }
+}
+.parent1
+{
+    position: relative;
+}
+.box1
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: absolute;
+    animation: rotate 4s ease-in-out infinite;
+    margin-top: 250px;
+}
+@keyframes rotate
+{
+    from
+    {
+        left: 0;
+        top: 0;
+    }
+    to
+    {
+        left: 1000px;
+        top: 0px;
+        background-color: brown;
+        transform: rotate(180deg);
+        width: 150px;
+        height: 150px;
+
+    }
+}
+@keyframes rotate
+{
+    from
+    {
+        right: 0;
+        top: 0;
+    }
+    to
+    {
+        right: 1000px;
+        top: 0;
+        background-color: cadetblue;
+        transform: rotate(180deg);
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+
+
